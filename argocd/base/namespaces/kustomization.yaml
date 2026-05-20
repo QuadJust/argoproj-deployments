@@ -4,7 +4,4 @@ kind: Kustomization
 commonAnnotations:
   argocd.argoproj.io/sync-options: Prune=true,Delete=true
 
-resources:
-  - team-frontend.yaml
-  - team-backend.yaml
-  - team-platform.yaml
+resources: []
